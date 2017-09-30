@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+#search{ width:1250px; height:118px; margin:0 auto; line-height:118px; position:relative;}
+#search img{ position:absolute; top:20px;}
+#scan{ position:absolute; right:0; }
+#province{ width:65px; height:30px; border:1px #000000 solid; position:absolute; left:250px; top:55px; position:relative; border:#e4e4e4 solid 1px; cursor:pointer;}
+#province span{ position:absolute; left:10px; top:-43px; }
+#province img{ position:absolute; left:45px; top:5px;}
+#searchBox{  width:530px; height:95px; position:absolute; left:390px; top:17px;}
+#searchBox li{ float:left; margin-top:0; width:80px; height:35px; line-height:35px; font-size:14px; cursor:pointer; text-align:center; }
+.searchtop{ width:530px; height:35px;}
+.searchmiddle{ width:530px; height:35px;}
+.searchText{ width:435px; height:35px; border:2px solid #ff8201; position:relative; top:-2px; background:url(../img/ioc.gif) no-repeat; padding-left:25px;}
+.searchBtton{ width:90px; background:#ff8201; height:35px; color:#FFF; font-size:14px; border:none; position:relative; top:-1px; cursor:pointer;}
+.searchbottom{ width:530px; height:20px;  cursor:pointer;  margin-top:-47px; }
+#eachPro{ width:350px; height:130px; border:1px solid #e4e4e4; position:absolute; top:30px; z-index:3; background:#ffffff; display:none; cursor:pointer;}
+#eachPro ul{ width:350px; height:30px;}
+#eachPro li{ float:left; line-height:30px;}
+#eachPro font{color:#ff8300;}
+#province:hover #eachPro{ display:block;}
+
+

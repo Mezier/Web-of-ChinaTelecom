@@ -1,0 +1,20 @@
+@charset "utf-8";
+*{ padding:0; margin:0; font-size:10px; list-style:none; color:#81878c;}
+a{ text-decoration:none; color:#81878c; cursor:pointer; margin-left:5px;}
+.ahover:hover{ color:#ff8300;}
+#topBox{ width:100%; height:30px; border-bottom:solid 1px #e4e4e4; background:#fafafa;}
+#topInfo{ width:1250px; height:30px; margin:0 auto; line-height:30px;}
+#topInfo span{color:#81878c;}
+#topLeft{ float:left;}
+#topRight{ float:right}
+
+#topHelp>li{ float:left; line-height:30px;  position:relative; padding-right:10px; text-align:center;}
+#topHelp img{ position:relative; top:2px;}
+.topHidden{ position:absolute; top:0px; background:#ffffff; border:1px solid #e4e4e4; width:90px; z-index:9; display:none;}
+#topHelp li:hover .topHidden{ display:block;}
+.decorate:hover{ text-decoration:underline; color:#ff8300; cursor:pointer;}
+.topHidden li{ text-align:center; }
+#picscan{ z-index:6; position:absolute; top:30px; left:-10px; border:1px solid #e4e4e4; display:none;   }
+#picscan2{ width:120px; background:#ffffff; z-index:6; position:absolute; top:30px; left:-10px; border:1px solid #e4e4e4; display:none;}
+#picsanHidden:hover #picscan{ display:block;}
+#picsanHidden2:hover #picscan2{ display:block;}

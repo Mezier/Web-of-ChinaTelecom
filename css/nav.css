@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav{ width:100%; background:#ff8201; height:45px; }
+#navInfo{ width:1250px; height:45px; margin:0 auto; position:relative;}
+
+
+.navLeft{ float:left; line-height:45px; font-size:16px; color:white; 
+          width:205px;height:45px; background:#ffad00; text-align:center;
+		   font-weight:bold; position:relative;}
+#productSort{ width:203px; height:392px; border:0px solid #000; 
+              position:absolute; z-index:9; top:45px; left:0;}
+.ProHidden{ width:600px; height:392px; background:#fafafa;
+            border:0px solid #000; position:absolute; top:0;
+			 left:203px; display:none;}
+#productSort>ul{ width:203px; height:390px;  }
+#productSort>ul li:hover .ProHidden{ display:block;}
+#productSort>ul li:hover .tri{ display:none;}
+
+
+.navLeft> img{ position:absolute; top:8px; left:7px;}
+.navLeft li img{float:left;}
+
+.navMiddle{ width:700px; height:44px;  margin-left:230px;}
+.navMiddle li{ float:left; line-height:44px; font-size:18px; width:110px; color:white;  font-weight:400;position:relative;}
+.navMiddle font{ font-size:20px; color:white; font-weight:bold;}
+.beBig{ line-height:42px; font-size:18px; width:100px; color:white;}
+.beBig:hover{ font-size:20px; color:white; font-weight:bold; }
+.b{ display:none;}
+.beBig:hover .b{ display:block; height:30px;display:block;position:absolute;background:#ff8300;Z-index:99;}
+
+.navRight{ float:right; width:130px; height:45px;  position:absolute; top:0;left:1120px;line-height:45px; font-size:16px;  color:white;  font-weight:bold; }
+.login{ line-height:45px; font-size:16px; width:110px; color:white;  font-weight:bold;}
+.login:hover{ text-decoration:underline;}
+.navRight>img{ position:absolute; top:10px; right:130px;}
+#productSort li{ width:203px; height:55px; line-height:55px; cursor:pointer; border-bottom:#e4e4e4 solid 1px; background:#fafafa; text-align:left;}
+#productSort font{ font-size:14px;}
+
+
+.tri{ color:#ff8300; font-size:20px; position:absolute; left:170px;}
+
+
+
+.partsLeft{ float:left; width:95px; height:95px;}
+.partsRight{ float:left;}
+.ProHidden a{ color:#6d6d6d; cursor:pointer; font-weight:200;}
+.ProHidden a:hover{ color:#ff8300;}
+.salesLeft{ float:left; width:95px; height:50px;}
+.salesRight{ float:left; width:400px; height:50px;}
+#suitLeft{ float:left; width:95px; height:95px;}
+#suitRight{ float:left;}
+.numType a{ color:#81878c; font-weight:bold;}
+.numType1{ float:left; width:150px; height:170px; margin-left:27px;}
+.numType2{ float:left;  width:150px; height:170px; padding-left:150px; }
+
+
+#loginBox{ width:252px; height:407px; position:absolute; top:48px; left:-155px; z-index:10; background:white;}
+#loginTop{ width:252px; height:33px; background:#f4f4f4;}
+#loginPic1{ width:210px; height:150px; border-bottom:1px solid#e4e4e4; margin:0 20px; display:block; }
+.loginA{ padding-left:17px; font-size:14px; line-height:33px; font-weight:700;}
+.loginA:hover{color:#ff8300;}
+.normal{ font-size:10px; padding:0; margin:0; line-height:20px; color:#81878c; font-weight:500; cursor:pointer;}
+.rotation:hover { transform:rotate(360deg); transition:1s;}
+#loginPic2{ width:210px; height:150px; border-bottom:1px solid#e4e4e4; margin:0 20px;  display:none; }
+#loginCharge{ width:218px; height:180px; border-bottom:1px solid #e4e4e4; margin:0 5px; }
+#chargeA{ width:218px; height:25px;  margin-left:5px; margin-top:-7px;}
+.cA{ font-size:10px; line-height:25px; color:#81878c; font-weight:500; cursor:pointer; padding:8px; }
+#chargeR{ width:218px; height:25px;  margin-left:15px; margin-top:7px; border:0px solid #000; line-height:25px;}
+
+
+#loginInfo1{ width:218px; height:150px;  border:0px solid #000; display:block; }
+#loginInfo2{ width:218px; height:150px; line-height:100px; text-align:center;  border:0px solid #000; display:none; margin-left:10px; }
+#loginInfo3{ width:218px; height:150px; line-height:100px; text-align:center;   border:0px solid #000; display:none; }
+#loginInfo4{ width:218px; height:150px; line-height:100px; text-align:center;   border:0px solid #000; display:none; }
+.chargeButton{ width:95px; height:30px; background:#ff8201; border:none; border-radius:8px; margin-left:15px; margin-top:10px; color:white;}
+
+.chargeMoney{width:60px; height:20px;  border:1px solid #ceccce; position:absolute; left:50px;  top:-32px; text-align:center; cursor:pointer; position:relative; }
+#chargeMoneyHTML{ position:absolute; left:12px; top:-10px;}
+#varyMoney{ width:100px; height:140px; border:1px #ceccce solid; line-height:30px; position:absolute; top:20px; z-index:5; background:#fff; display:none;}
+#varyMoney>font{  position:relative; left:-8px; top:2px;   padding-left:13px; padding-top:5px;}
+.abottomFont{ color:#81878c; font-weight:500;}
+.abottomFont:hover { color:#ff8300;}
+.chargeMoney:hover #varyMoney{ display:block;}
+
+#noticeBox{ width:230px; height:35px; margin-left:9px; border:0px solid #000; position:relative;}
+#loginScroll{ width:180px; height:30px;  position:absolute; top:7px; left:36px; overflow:hidden;}
+#noticeInBox{ width:1900px; height:30px; border:0px solid #000;}
+#nLeft{ width:950px; height:30px; line-height:30px; float:left;}
+#nRight{ width:950px; height:30px; line-height:30px; float:left;}
